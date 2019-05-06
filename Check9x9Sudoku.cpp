@@ -82,19 +82,19 @@ int check(int sudoku[9][3][3])
 
 	if (cntInBlock>1)
 	{
-		cout<<"err in block:"<< endl;
+		cout<<"err in block "<<i+1<<" :"<< endl;
 		printArr(block,'b');
 		return -1;
 	}
 	if(cntInRow>1)
 	{
-		cout<<"err in rows"<<endl;
+		cout<<"err in row "<<i+1<<" :"<<endl;
 		printArr(rows,'r');
 		return -1;
 	}
 	if(cntInColm>1)
 	{
-		cout<<"err in column"<<endl;
+		cout<<"err in column  "<<i+1<<" :"<<endl;
 		printArr(cols,'c');
 		return -1;
 	}
