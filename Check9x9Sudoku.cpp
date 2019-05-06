@@ -10,9 +10,8 @@ void printSudoku(int s[9][9]);
 void main()
 {
    clrscr();
-//sample sudoku matrix, because it's a mindf#*@ing task to enter 81 digits
-//through console without widgets.
-
+	
+//sample sudoku matrix
  int s[9][3][3]={{{7,3,5},{8,4,2},{9,6,1}},{{6,1,4},{9,7,3},{2,8,5}},
 		 {{8,9,2},{5,6,1},{3,7,4}},
 		 {{2,8,6},{4,1,3},{5,7,9}},{{3,4,9},{8,5,7},{1,2,6}},
